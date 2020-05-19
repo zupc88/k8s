@@ -36,12 +36,17 @@ K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절�
 
 ### 1. Technical Architecture
 
+금번 테스트 환경 구축은 단일 Master Node에 3개 Worker Node로 이루어진 클러스터를 구축한다.
+
+일반적으로 Master 서버는 3, 5, 7대로 이중화하여 구성하는게 보통이나, 금번 테스트 환경은 단일 Master 서버로 구성한다.
+
 ![3](https://user-images.githubusercontent.com/53555895/82279296-29f9cd80-99c7-11ea-91f0-c83ec1acc703.jpg)
 
 
 ### 2. VM 생성
 
 VMWare에서 다음 스펙으로 VM주문한다. 
+
 물론 테스트 환경이므로 최저 구성한 스펙이며, 실제 운영 환경은 훨씬 고스펙이 필요하다.
 
 |*용도*|*Hostname*|*CPU*|*MEM*|*Disk*|
@@ -62,6 +67,7 @@ VMWare에서 다음 스펙으로 VM주문한다.
 ### CentOS 이미지 다운로드
 
 아래 다운로드 링크에서 이미지를 다운로드 한다.
+
 일반적으로 RedHat계열(RedHat, CentOS등)과 Ubuntu계열을 많이 쓰나, 금번 테스트는 RedHat계열인 CentOS를 사용한다.
 
 CentOS이미지에도 DVD ISO / Everything ISO / Minimal ISO 등 여러가지가 존재하나,
