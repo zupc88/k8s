@@ -8,7 +8,7 @@
 
 해당 메뉴얼을 통해 Kubernetes 기반의 Private Cloud 시스템 구축을 수행한다. (TA,PA 영역)
 
-또한 보안상 이슈가 될 수 있는 Service Migration 관련된 내용은 별도로 작성하여 공유 할 예정이다.
+또한 보안상 이슈가 될 수 있는 Service Migration 관련된 내용은 포함하지 않는다. 
 
 
 ![1](https://user-images.githubusercontent.com/53555895/82279300-2b2afa80-99c7-11ea-829a-7893e925812e.PNG)
