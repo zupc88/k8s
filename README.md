@@ -67,15 +67,18 @@ VMWare에서 다음 스펙으로 VM주문한다.
 ### CentOS 이미지 다운로드
 
 아래 다운로드 링크에서 이미지를 다운로드 한다.
+http://ftp.kaist.ac.kr/CentOS/7.8.2003/isos/x86_64/CentOS-7-x86_64-Minimal-2003.iso
+
 
 일반적으로 RedHat계열(RedHat, CentOS등)과 Ubuntu계열을 많이 쓰나, 금번 테스트는 RedHat계열인 CentOS를 사용한다.
 
 CentOS이미지에도 DVD ISO / Everything ISO / Minimal ISO 등 여러가지가 존재하나,
 일반적으로 On-premise에서는 DVD ISO를 주로 사용하며, Public Cloud에서는 Minimal을 주로 사용한다. (사유 X-Windows 유무)
 
+참고로 아래 링크를 통해 최신 버전의 CentOS를 다운 받을 수 있다.
 
 ```
-http://ftp.kaist.ac.kr/CentOS/7.8.2003/isos/x86_64/
+https://www.centos.org/download/
 ```
 
 
