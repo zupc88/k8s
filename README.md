@@ -106,9 +106,11 @@ https://www.centos.org/download/
 #### Processors와 Memory를 사전 정의한 스펙으로 변경
 ![V7](https://user-images.githubusercontent.com/53555895/82284517-23be1e00-99d4-11ea-8740-ed80f626ee50.png)
 
+---
+### 5. Linux 설치
+
 
 ---
-
 ## 목표 아키텍처
 
 ### 2. 서비스 아키텍처
