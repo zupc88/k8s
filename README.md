@@ -56,11 +56,6 @@ VMWare에서 다음 스펙으로 VM주문한다.
 |Node2|test-node2|2Core|4GB|50GB|
 |Node3|test-node3|2Core|4GB|50GB|
 
-일반적인 운영 환경에서는 VMWare ESXi Hypervisor 또는 Xen 기반의 VM으로 시스템을 구축하는게 보통이나,
-테스트 환경에서는 VMWare Workstation 또는 VMWare Player로 구축진행해도 무방하다.
-
-(Virtual Box로 해도 무방하나, Master-Node간의 라우팅 설정을 추가로 해줘야 하므로, 가급적 VMWare계열로 하는게 편함)
-
 
 ---
 
@@ -80,6 +75,24 @@ CentOS이미지에도 DVD ISO / Everything ISO / Minimal ISO 등 여러가지가
 ```
 https://www.centos.org/download/
 ```
+
+---
+### 4. VM 생성
+
+금번 환경 구축은 VMWare Workstation 또는 VMWare Player로 진행한다.
+
+다만, 실제 엔터프라이즈 환경에서는 VMWare ESXi Hypervisor 또는 Xen 기반의 VM으로 시스템을 구축한다.
+
+(Virtual Box로 해도 무방하나, Master-Node간의 라우팅 설정을 추가로 해줘야 하므로, 가급적 VMWare계열로 하는게 편함)
+
+
+![V1](https://user-images.githubusercontent.com/53555895/82284518-2456b480-99d4-11ea-96fc-163d7a39409c.png)
+![V2](https://user-images.githubusercontent.com/53555895/82284519-24ef4b00-99d4-11ea-9255-012dee18a081.png)
+![V3](https://user-images.githubusercontent.com/53555895/82284521-24ef4b00-99d4-11ea-9ac9-ab5be9a5cec5.png)
+![V4](https://user-images.githubusercontent.com/53555895/82284509-21f45a80-99d4-11ea-95f4-848a1f01f35e.png)
+![V5](https://user-images.githubusercontent.com/53555895/82284514-23258780-99d4-11ea-8058-3249ac22ffa7.png)
+![V6](https://user-images.githubusercontent.com/53555895/82284515-23be1e00-99d4-11ea-8adb-e5d709fb037e.png)
+![V7](https://user-images.githubusercontent.com/53555895/82284517-23be1e00-99d4-11ea-8740-ed80f626ee50.png)
 
 
 ---
