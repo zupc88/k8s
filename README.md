@@ -43,9 +43,12 @@ K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절�
 
 다음 스펙으로 VM주문한다. (물론 테스트 환경이므로 최저 구성한 스펙이며, 실제 운영 환경은 훨씬 고스펙이 필요하다.)
 
-|*용도*|*CPU*|*MEM*|*Disk*|
+|*용도*|*Hostname*|*CPU*|*MEM*|*Disk*|
 |-|-|-|-|
-|Master|2Core|2GB|50GB|
+|Master|test-master|2Core|2GB|50GB|
+|Node1|test-node1|2Core|4GB|50GB|
+|Node2|test-node2|2Core|4GB|50GB|
+|Node3|test-node3|2Core|4GB|50GB|
 
 
 
