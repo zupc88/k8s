@@ -1,3 +1,10 @@
+## 개요
+금번 작업을 통해 Private Cloud 환경을 구축하는 방법에 대해 이해한다.
+해당 메뉴얼에는 Infra구축 부터 K8S실행 환경, 운영 환경 및 서비스 Mig.에 대한 내용을 포함한다.
+
+![1](https://user-images.githubusercontent.com/53555895/82279300-2b2afa80-99c7-11ea-829a-7893e925812e.PNG)
+
+
 ## 작업 절차
 
 K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절차에 따라 진행한다.
@@ -16,17 +23,11 @@ K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절�
 
 
 
-
-
-
-
-
-
 ## Infra 구성(VM구축)
 
 ### 1. 인프라 아키텍처
-![1](https://user-images.githubusercontent.com/53555895/82279300-2b2afa80-99c7-11ea-829a-7893e925812e.PNG)
 
+![3](https://user-images.githubusercontent.com/53555895/82279296-29f9cd80-99c7-11ea-91f0-c83ec1acc703.jpg)
 
 ### CentOS 이미지 다운로드
 
@@ -56,4 +57,4 @@ http://ftp.kaist.ac.kr/CentOS/7.8.2003/isos/x86_64/
 
 
 ## K8S기본 구성
-![3](https://user-images.githubusercontent.com/53555895/82279296-29f9cd80-99c7-11ea-91f0-c83ec1acc703.jpg)
+
