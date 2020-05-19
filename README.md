@@ -2,8 +2,6 @@
 
 K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절차에 따라 진행한다.
 
-해당 내용에는 Infra Architecture, Platform Architecture가 포함되며, 이후에 Application Migration은 별도로 진행 예정.
-
    1. Infra 구성(VM구축)
    2. Kubernetes(Master/Node) 구성
    3. Internal Network 구성
@@ -13,6 +11,8 @@ K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절�
    6. CI/CD 구성
    7. Monitoring(Prometheus/Grafana) 구성
    8. Logging(ELK) 구성
+   9. Application Mig. (Refactoring)
+   10. Cloud Native. (Rebuild)
 
 
 ## Infra 구성(VM구축)
