@@ -62,6 +62,7 @@ VMWare에서 다음 스펙으로 VM주문한다.
 ### 3. OS 이미지 다운로드
 
 아래 다운로드 링크에서 이미지를 다운로드 한다.
+
 http://ftp.kaist.ac.kr/CentOS/7.8.2003/isos/x86_64/CentOS-7-x86_64-Minimal-2003.iso
 
 
