@@ -85,13 +85,25 @@ https://www.centos.org/download/
 
 (Virtual Box로 해도 무방하나, Master-Node간의 라우팅 설정을 추가로 해줘야 하므로, 가급적 VMWare계열로 하는게 편함)
 
-
+#### New Virtual Machine 생성
 ![V1](https://user-images.githubusercontent.com/53555895/82284518-2456b480-99d4-11ea-96fc-163d7a39409c.png)
+
+#### Linux 생성
 ![V2](https://user-images.githubusercontent.com/53555895/82284519-24ef4b00-99d4-11ea-9255-012dee18a081.png)
+
+#### VM명 지정 (Master, node1, node2, node3등 구분이 쉽게 지정)
 ![V3](https://user-images.githubusercontent.com/53555895/82284521-24ef4b00-99d4-11ea-9ac9-ab5be9a5cec5.png)
+
+#### First Disk 용량 지정 (향후 증설 가능하나 LVM작업이 추가 필요하므로 Node는 가급적 60GB이상 설정)
 ![V4](https://user-images.githubusercontent.com/53555895/82284509-21f45a80-99d4-11ea-95f4-848a1f01f35e.png)
+
+#### VM 기본 설정 완료
 ![V5](https://user-images.githubusercontent.com/53555895/82284514-23258780-99d4-11ea-8058-3249ac22ffa7.png)
+
+#### VM 세부 설정 수행
 ![V6](https://user-images.githubusercontent.com/53555895/82284515-23be1e00-99d4-11ea-8adb-e5d709fb037e.png)
+
+#### Processors와 Memory를 사전 정의한 스펙으로 변경
 ![V7](https://user-images.githubusercontent.com/53555895/82284517-23be1e00-99d4-11ea-8740-ed80f626ee50.png)
 
 
