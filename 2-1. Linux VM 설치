@@ -1,1 +1,20 @@
 
+## CentOS 이미지 다운로드
+
+아래 다운로드 링크에서 이미지를 다운로드 한다.
+
+일반적으로 RedHat계열(RedHat, CentOS등)과 Ubuntu계열을 많이 쓰나,
+금번 테스트는 RedHat계열인 CentOS를 사용한다.
+
+
+...
+http://ftp.kaist.ac.kr/CentOS/7.8.2003/isos/x86_64/
+...
+
+DVD ISO / Everything ISO / Minimal ISO 등 여러가지가 존재한다.
+일반적으로 On-premise에서는 DVD ISO를 주로 사용하며, Public Cloud에서는 Minimal을 주로 사용한다.
+(사유 X-Windows 유무)
+
+
+
+
