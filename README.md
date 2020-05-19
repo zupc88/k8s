@@ -1,7 +1,15 @@
 ## 개요
 금번 TCL활동을 통해 Private Cloud 환경을 구축하는 방법에 대해 이해한다.
 
-해당 메뉴얼에는 Infra구축 부터 K8S실행 환경, 운영 환경 및 서비스 Mig.에 대한 내용을 포함한다.
+
+
+
+## 목표 아키텍처
+
+해당 메뉴얼을 통해 Kubernetes 기반의 Private Cloud 시스템 구축을 수행한다. (TA,PA 영역)
+
+또한 보안상 이슈가 될 수 있는 Service Migration 관련된 내용은 별도로 작성하여 공유 할 예정이다.
+
 
 ![1](https://user-images.githubusercontent.com/53555895/82279300-2b2afa80-99c7-11ea-829a-7893e925812e.PNG)
 
