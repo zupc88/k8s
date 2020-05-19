@@ -1,6 +1,7 @@
 ## 작업 절차
 
 K8S기반 Private Cloud System 실행/운영 환경을 구성하며, 다음 절차에 따라 진행한다.
+
 해당 내용에는 Infra Architecture, Platform Architecture가 포함되며, 이후에 Application Migration은 별도로 진행 예정.
 
    1. Infra 구성(VM구축)
